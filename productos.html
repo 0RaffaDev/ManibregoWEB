@@ -1,80 +1,197 @@
 <!DOCTYPE html>
 <html lang="">
+
 <head>
-    <title>MANIBREGO  - Productos</title>
+    <title>MANIBREGO - Productos</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/3.0.8/jquery.elevatezoom.min.js"></script>
 </head>
-<body >
-
-        <header>
-
-            <!-- Navegacion -->
-                 <img src="img/logo.jpg" alt="" id="logo">
-                    <nav>
-                        <ul>
-            
-                            <li><a href="index.html">Inicio</a></li>
-                            <li><a href="productos.html">Productos</a></li>
-                            <li><a href="">Contacto</a></li>
-                        </ul>
-                    </nav>
-                </header>
 
 
-    <!-- Section Productos -->
-    <div class="contenedor">
-    <h2>PRODUCTOS</h2>
+<header>
+
+    <!-- Navegacion -->
+    <img src="img/logo.jpg" alt="" id="logo">
+    <nav>
+        <ul>
+
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<!-- Section Productos -->
+<div class="contenedor" id="contenedor">
+    <h2>CATALOGO DE PRODUCTOS</h2>
+<button><img src="img/Iconos de Carrito Compras para descargar gratis.png" alt="CARRITO" id="carrito"></button>
     <section id="productos">
-        
-        
+
         <div class="producto">
+    <img src="img/BUZO POLAR CON APLIQUES OVER SIZE.jpg" alt="" class="imgP">
+
             <div class="producto-info">
-            <h3>BUZO POLAR CON APLIQUES OVER SIZE</h3>
-            <p>Largo total 60cm
-                Amplio
-                Largo mangas 60cm
-                Talle M/L</p>
-            <p class="precio">$8999,00</p>
+
+                <h3>BUZO POLAR CON APLIQUES OVER SIZE</h3>
+                <p>Largo total 60cm
+                    Amplio
+                    Largo mangas 60cm
+                    Talle M/L</p>
+                <p class="precio">$8.999,00</p>
+                <div>
+                
+                
+
             </div>
-            <img src="img/BUZO POLAR CON APLIQUES OVER SIZE.jpg" alt="" class="imgP">
+            <button>COMPRAR</button>
+                    
         </div>
-        <div class="producto">
-            <div class="producto-info">
-            <h3>CAMISACO JEANS Y GABARDINA FORRADO</h3>
-            <p>Talle único (entre M y L)</p>
-            <p class="precio">$7999,00</p>
             
-            </div>
-            <img src="img/Camisaco jeans y gabardina forrado.jpg" alt="" class="imgP">
-   
-           
+            
         </div>
-    </div>
+        <div class="producto">
+            <img src="img/Camisaco jeans y gabardina forrado.jpg" alt="" class="imgP">
 
-        <script>
-            $(document).ready(function() {
-                $('.imgP').elevateZoom({
-                    responsive: true,
-                    zoomWindowWidth:300,
-                    zoomWindowHeight:220,
-                    zoomWindowFadeIn: 500,
-                    zoomWindowFadeOut: 750,
-                    scrollZoom : true,
-                    zoomLevel: 2,
+            <div class="producto-info">
+
+                <h3>CAMISACO JEANS Y GABARDINA FORRADO</h3>
+                <p>Talle único (entre M y L)</p>
+                <p class="precio">$7.999,00</p>
+               
 
 
-                   
-                });
-            });   
-        </script>
+            </div>
+            <div class="buttondiv">
+                <button>COMPRAR</button>
+            </div>
+        </div>
 
+        <div class="producto">
+            <img src="img/Pantalon cargo talle unico.txt" alt="" class="imgP">
+
+            <div class="producto-info">
+                <h3>PANTALÓN CARGO TALLE ÚNICO</h3>
+                <p>Cintura hasta 90, Cadera 110</p>
+                <p class="precio">$12.000,00</p>
+                <button>COMPRAR</button>
+
+            </div>
+        </div>
+
+        <div class="producto">
+            <div class="producto-info">
+            <img src="img/Pantalon con aplicaciones talle unico.jpg" alt="" class="imgP">
+
+                <h3>PANTALÓN CON APLICACIONES TALLE ÚNICO</h3>
+                <p>Estirado :Cintura hasta 95 CM
+                    Cadera 110
+                    Largo 105</p>
+                <p class="precio">$13.000,00</p>
+                <button>COMPRAR</button>
+
+            </div>
+        </div>
+        <div class="producto">
+            <img src="img/Blusa patchwork con aplicaciones.jpg" alt="" class="imgP">
+
+            <div class="producto-info">
+                <h3>BLUSA PATCHWORK CON APLICACIONES</h3>
+                <p>Talle único
+                    Contorno de busto 95
+                    Largo 58cm</p>
+                <p class="precio">$7.999,00</p>
+                <button id="comprar">COMPRAR</button>
+
+            </div>
+            
+        </div>
+        <div class="producto">
+            <img src="img/Vestido entallado en lino (over size).jpg" alt="" class="imgP">
+
+            <div class="producto-info">
+                <h3>VESTIDO ENTALLADO EN LINO (OVER SIZE)</h3>
+                <p>Vestido corto ,mangas 3/4,
+                    Busto 100
+                    Largo total 85cm
+                    Cadera 108</p>
+                <p class="precio">$17.999,00</p>
+                <button>COMPRAR</button>
+
+            </div>
+        </div>
+        <div class="producto">
+            <img src="img/Camisa Over Size.jpg" alt="" class="imgP">
+
+            <div class="producto-info">
+                <h3>CAMISA OVER SIZE</h3>
+                <p>Tela de algodón Poplin
+                    Largo total 70 CM
+                    Largo manga 55 CM
+                    Busto hasta 105</p>
+                <p class="precio">$14.999,00</p>
+                <button>COMPRAR</button>
+
+            </div>
+        </div>
+        <div class="producto">
+            <img src="img/Sueters tejido a mano.jpg" alt="" class="imgP">
+
+            <div class="producto-info">
+                <h3>SUÉTERS TEJIDO A MANO</h3>
+                <p>Talle único (entre M y L)</p>
+                <p class="precio">$8.000,00</p>
+                <button>COMPRAR</button>
+
+            </div>
+        </div>
+        <div class="producto">
+            <img src="img/cAMPERA A CROCHET.jpg" alt="" class="imgP">
+
+            <div class="producto-info">
+                <h3>CAMPERA A CROCHET</h3>
+                <p>TALLE ÚNICO AMPLIA</p>
+                <p class="precio">$9.999,00</p>
+                <button>COMPRAR</button>
+
+            </div>
+        </div>
+        <div class="producto">
+            <img src="img/Jardinero de gabardina Talle Unico.jpg" alt="" class="imgP">
+
+            <div class="producto-info">
+                <h3>JARDINERO DE GABARDINA TALLE ÚNICO</h3>
+                <p>Cintura hasta 95cm
+                    Cadera hasta 110cm
+                    Largo 105</p>
+                <p class="precio">$13.999,00</p>
+                <button>COMPRAR</button>
+            </div>
+        </div>
+    </section>
+</div>
 
 <footer>
     <p>&copy; 2023 MANIBREGO - Todos los derechos reservados</p>
 </footer>
-    </section>
 </body>
-</html>
 
+<!-- <script>
+
+    $(document).ready(function () {
+        $('.imgP').elevateZoom({
+            responsive: true,
+            zoomWindowWidth: 300,
+            zoomWindowHeight: 220,
+            zoomWindowFadeIn: 500,
+            zoomWindowFadeOut: 750,
+            scrollZoom: true,
+            zoomLevel: 2,
+
+        });
+    });   
+</script> -->
+
+</html>
