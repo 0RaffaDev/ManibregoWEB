@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url(https://previews.123rf.com/images/cibetka/cibetka1402/cibetka140200009/26827862-patr%C3%B3n-de-lana-violeta-detalle-de-la-textura-los-antecedentes.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 0%;
+}
+#bodyInicio{
+   
+    
+    
+}
+#logo{
+    width: 480px;
+    height: auto;
+    box-shadow: 10px 15px 10px  purple;
+    border: 5px solid black;
+   
+
+    
+}
+
+header {
+    background-color: violet;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    border: black 2px solid;
+    box-shadow: 0 3px 5px purple;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.1s ease-in-out;
+    
+}
+
+nav a:hover {
+    color: black; 
+  
+    
+    
+}
+
+/* Agrega una transición suave para el cambio de color */
+
+
+#productos {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.producto {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 3px 5px violet;
+       display: flex; 
+    align-items: center; 
+    transition: transform 0.2s; 
+}
+
+.producto:hover {
+    transform: scale(1.01); /* Aplica un efecto de zoom al pasar el mouse */
+}
+
+
+
+.producto h3 {
+    margin-top: 0;
+}
+
+.precio {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.producto img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 5px solid black; /* Añade un borde blanco alrededor de la imagen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+
+}
+
+.contenedor{
+    padding: 10px;
+    margin: 30px;
+    background-color: white;
+    border: black 2px solid;
+    box-shadow: 0 3px 5px purple;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: violet;
+    color: black;
+    border: black 2px solid;
+    box-shadow: 0 3px 5px purple;
+}
